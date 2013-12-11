@@ -1,0 +1,6 @@
+{
+    "application": {
+        "reqs": ["modernizr", "jquery"],
+        "comp": ["js", "html", "css"]
+    }
+}

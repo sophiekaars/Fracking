@@ -1,0 +1,53 @@
+#viewport {
+    width: 1280px;
+    height: 720px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#viewport-scroller {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen {
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    z-index: 20;
+}
+
+#sc1 { background: #F00; }
+#sc2 { background: #0F0; top: 720px; }
+#sc3 { background: #00F; top: 720px; left: 1280px; }
+
+.mover {
+    background: #000;
+    position: absolute;
+    display: none;
+    z-index: 30;
+}
+
+#bottom-move,
+#top-move {
+    height: 50px;
+    width: 100%;
+    left: 0;
+}
+
+#left-move,
+#right-move {
+    height: 100%;
+    width: 50px;
+    top: 0;
+}
+
+#top-move { top: 0; }
+#bottom-move { bottom: 0; display: block; }
+#left-move { left: 0; }
+#right-move { right: 0; }
+
