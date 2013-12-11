@@ -1,23 +1,48 @@
 <div id="viewport">
-    <div id="left-move" class="mover">
+    {% set movers = ["left", "top", "right", "bottom"] %}
+    {% for m in movers %}
+    <div id="{{m}}-move" class="mover"></div>
+    {% endfor %}
 
-    </div>
-    <div id="top-move" class="mover">
-
-    </div>
-    <div id="right-move" class="mover">
-
-    </div>
-    <div id="bottom-move" class="mover">
-
-    </div>
+    <div id="restart" class="mover">restart</div>
 
     <div id="viewport-scroller">
-        <div id="sc1" class="screen">
-        </div>
-        <div id="sc2" class="screen">
-        </div>
-        <div id="sc3" class="screen">
-        </div>
+        <div class="screen" data-index="1">Start (1)</div>
+        <div class="screen" data-index="2">(2)</div>
+
+        <!-- To the left -->
+        <div class="screen" data-index="3">Transition (3)</div>
+        <div class="screen" data-index="5">(5)</div>
+        <div class="screen" data-index="7">(7)</div>
+
+        <!-- To the right -->
+        <div class="screen" data-index="4">Transition (4)</div>
+        <div class="screen" data-index="6">(6)</div>
+        <div class="screen" data-index="8">(8)</div>
+
+        <!-- Leasing Subtree -->
+        <div class="screen" data-index="9">Leasing (9)</div>
+
+        <!-- Leasing left -->
+        <div class="screen" data-index="10">Leasing laws (10)</div>
+        <div class="screen" data-index="12">(12)</div>
+        <div class="screen" data-index="14">(14)</div>
+        <!-- Tier 2 left -->
+        <div class="screen" data-index="18">Seismology (18)</div>
+        <div class="screen" data-index="22">(22)</div>
+
+        <!-- Leasing right -->
+        <div class="screen" data-index="11">Fraud potential (11)</div>
+        <div class="screen" data-index="13">(13)</div>
+        <div class="screen" data-index="15">(15)</div>
+        <!-- Tier 2 right -->
+        <div class="screen" data-index="19">Impact seismology(19)</div>
+        <div class="screen" data-index="23">(23)</div>
+
+        <!-- Leasing center -->
+        <div class="screen" data-index="16">(16)</div>
+        <div class="screen" data-index="17">(17)</div>
+        <div class="screen" data-index="20">(20)</div>
+        <div class="screen" data-index="21">(21)</div>
     </div>
 </div>

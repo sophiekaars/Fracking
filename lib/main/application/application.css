@@ -21,10 +21,6 @@
     z-index: 20;
 }
 
-#sc1 { background: #F00; }
-#sc2 { background: #0F0; top: 720px; }
-#sc3 { background: #00F; top: 720px; left: 1280px; }
-
 .mover {
     background: #000;
     position: absolute;
@@ -47,7 +43,77 @@
 }
 
 #top-move { top: 0; }
-#bottom-move { bottom: 0; display: block; }
+#bottom-move { bottom: 0; }
 #left-move { left: 0; }
 #right-move { right: 0; }
+
+.invisible { opacity: 0; }
+
+#restart { width: 70%; height: 50px; bottom: 100px; left: 15%; }
+
+/* Debugging
+----------------------------------*/
+.screen {
+    line-height: 720px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mover {
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.invisible { opacity: 0.25; }
+
+/* Screen mapping
+
+Most Left: 0
+Center: 11520 ((25600[maxSize]/2)[halfMaxSize] - 1280[screenSize])
+Most Right: 24320 (25600[maxSize]-1280[screenSize])
+----------------------------------*/
+
+[data-index="1"] { top: 0px; left: 11520px; }
+[data-index="2"] { top: 720px; left: 11520px; }
+
+/* Left side first T */
+[data-index="3"] { top: 720px; left: 10240px; }
+[data-index="5"] { top: 1440px; left: 10240px; }
+[data-index="7"] { top: 2160px; left: 10240px; }
+
+/* Right side first T */
+[data-index="4"] { top: 720px; left: 12800px; }
+[data-index="6"] { top: 1440px; left: 12800px; }
+[data-index="8"] { top: 2160px; left: 12800px; }
+
+/* Leasing subtree */
+[data-index="9"] { top: 2880px; left: 11520px; }
+
+/* Left leasing */
+[data-index="10"] { top: 2880px; left: 10240px; }
+[data-index="12"] { top: 2880px; left: 8960px; }
+[data-index="14"] { top: 3600px; left: 8960px; }
+/* Left leasing tier 2 */
+[data-index="18"] { top: 4320px; left: 10240px; }
+[data-index="22"] { top: 4320px; left: 8960px; }
+
+/* Right leasing */
+[data-index="11"] { top: 2880px; left: 12800px; }
+[data-index="13"] { top: 2880px; left: 14080px; }
+[data-index="15"] { top: 3600px; left: 14080px; }
+/* Right leasing tier 2 */
+[data-index="19"] { top: 4320px; left: 12800px; }
+[data-index="23"] { top: 4320px; left: 14080px; }
+
+/* Center leasing */
+[data-index="16"] { top: 3600px; left: 11520px; }
+[data-index="17"] { top: 4320px; left: 11520px; }
+[data-index="20"] { top: 5040px; left: 11520px; }
+[data-index="21"] { top: 7560px; left: 11520px; }
+
+
 
