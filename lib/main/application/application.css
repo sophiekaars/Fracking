@@ -1,3 +1,14 @@
+/* Slide styles
+----------------------------------*/
+/* Core
+----------------------------------*/
+
+.screen {
+background-position: center center;
+background-repeat: no-repeat;
+}
+[data-index="1"] { background-image: url(images/1.jpg); }
+
 #viewport {
     width: 1280px;
     height: 720px;
