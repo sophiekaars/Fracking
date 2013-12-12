@@ -9,6 +9,12 @@ background-repeat: no-repeat;
 }
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
+[data-index="3"] { background-image: url(images/3.jpg); }
+[data-index="4"] { background-image: url(images/4.jpg); }
+[data-index="5"] { background-image: url(images/5.jpg); }
+[data-index="6"] { background-image: url(images/6.jpg); }
+[data-index="7"] { background-image: url(images/7.jpg); }
+[data-index="8"] { background-image: url(images/8.jpg); }
 
 #viewport {
     width: 1280px;
