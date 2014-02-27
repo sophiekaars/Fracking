@@ -6,5 +6,8 @@ sed -i "" "s/..\/lib\/main\/application\///g" application.min.css
 cd .. 
 rm -rf ~/Desktop/fracking
 mv output ~/Desktop/fracking
-echo "Project now on desktop"
+cd ~/Desktop/
+rm fracking.zip
+zip fracking.zip fracking/*
+echo "Project now on desktop as fracking.zip"
 
