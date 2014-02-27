@@ -1,6 +1,5 @@
 {
     "includes": {
         "main": ["application"]
-    },
-    "embed": true
+    }
 }

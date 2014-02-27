@@ -1,5 +1,5 @@
 /*!
- * Jinja Templating for JavaScript v0.1.7
+ * Jinja Templating for JavaScript v0.1.8
  * https://github.com/sstur/jinja-js
  *
  * This is a slimmed-down Jinja2 implementation [http://jinja.pocoo.org/]
@@ -27,7 +27,7 @@ var jinja;
   }
   if (typeof define == 'function') {
     //AMD or Other
-    return define.amd ? define(['exports'], definition) : define('jinja', definition);
+    return define.amd ? define(['require', 'exports'], definition) : define('jinja', definition);
   }
   definition(function() {}, jinja = {});
 })(function(require, jinja) {
