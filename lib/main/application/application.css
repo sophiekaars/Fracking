@@ -205,3 +205,10 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="23aa"] { top: 15840px; left: 12800px; }
 [data-index="24aa"] { top: 16560px; left: 12800px; }
 [data-index="25aa"] { top: 17280px; left: 12800px; }
+
+/* Production extreme right (negative) */
+[data-index="25bb"] { top: 17280px; left: 12800px; }
+[data-index="25cc"] { top: 17280px; left: 14080px; }
+[data-index="25dd"] { top: 17280px; left: 15360px; }
+[data-index="25ee"] { top: 17280px; left: 16640px; }
+[data-index="25ff"] { top: 17280px; left: 17920px; }
