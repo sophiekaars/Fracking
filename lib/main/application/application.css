@@ -10,11 +10,11 @@ background-repeat: no-repeat;
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
 [data-index="3a"] { background-image: url(images/3a.jpg); }
-[data-index="4"] { background-image: url(images/3aa.jpg); }
-[data-index="5"] { background-image: url(images/4a.jpg); }
-[data-index="6"] { background-image: url(images/4aa.jpg); }
-[data-index="7"] { background-image: url(images/5a.jpg); }
-[data-index="8"] { background-image: url(images/5aa.jpg); }
+[data-index="3aa"] { background-image: url(images/3aa.jpg); }
+[data-index="4a"] { background-image: url(images/4a.jpg); }
+[data-index="4aa"] { background-image: url(images/4aa.jpg); }
+[data-index="5a"] { background-image: url(images/5a.jpg); }
+[data-index="5aa"] { background-image: url(images/5aa.jpg); }
 
 #viewport {
     width: 1280px;
@@ -100,13 +100,13 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 
 /* Left side first T */
 [data-index="3a"] { top: 720px; left: 10240px; }
-[data-index="5"] { top: 1440px; left: 10240px; }
-[data-index="7"] { top: 2160px; left: 10240px; }
+[data-index="4a"] { top: 1440px; left: 10240px; }
+[data-index="5a"] { top: 2160px; left: 10240px; }
 
 /* Right side first T */
-[data-index="4"] { top: 720px; left: 12800px; }
-[data-index="6"] { top: 1440px; left: 12800px; }
-[data-index="8"] { top: 2160px; left: 12800px; }
+[data-index="3aa"] { top: 720px; left: 12800px; }
+[data-index="4aa"] { top: 1440px; left: 12800px; }
+[data-index="5aa"] { top: 2160px; left: 12800px; }
 
 /* Leasing subtree */
 [data-index="9"] { top: 2880px; left: 11520px; }
