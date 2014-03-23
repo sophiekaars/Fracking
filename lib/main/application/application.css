@@ -9,12 +9,12 @@ background-repeat: no-repeat;
 }
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
-[data-index="3"] { background-image: url(images/3.jpg); }
-[data-index="4"] { background-image: url(images/4.jpg); }
-[data-index="5"] { background-image: url(images/5.jpg); }
-[data-index="6"] { background-image: url(images/6.jpg); }
-[data-index="7"] { background-image: url(images/7.jpg); }
-[data-index="8"] { background-image: url(images/8.jpg); }
+[data-index="3"] { background-image: url(images/3a.jpg); }
+[data-index="4"] { background-image: url(images/3aa.jpg); }
+[data-index="5"] { background-image: url(images/4a.jpg); }
+[data-index="6"] { background-image: url(images/4aa.jpg); }
+[data-index="7"] { background-image: url(images/5a.jpg); }
+[data-index="8"] { background-image: url(images/5aa.jpg); }
 
 #viewport {
     width: 1280px;
@@ -48,7 +48,7 @@ background-repeat: no-repeat;
 
 #bottom-move,
 #top-move {
-    height: 50px;
+    height: 30px;
     width: 100%;
     left: 0;
 }
@@ -56,7 +56,7 @@ background-repeat: no-repeat;
 #left-move,
 #right-move {
     height: 100%;
-    width: 50px;
+    width: 30px;
     top: 0;
 }
 
