@@ -9,7 +9,7 @@ background-repeat: no-repeat;
 }
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
-[data-index="3"] { background-image: url(images/3a.jpg); }
+[data-index="3a"] { background-image: url(images/3a.jpg); }
 [data-index="4"] { background-image: url(images/3aa.jpg); }
 [data-index="5"] { background-image: url(images/4a.jpg); }
 [data-index="6"] { background-image: url(images/4aa.jpg); }
@@ -99,7 +99,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="2"] { top: 720px; left: 11520px; }
 
 /* Left side first T */
-[data-index="3"] { top: 720px; left: 10240px; }
+[data-index="3a"] { top: 720px; left: 10240px; }
 [data-index="5"] { top: 1440px; left: 10240px; }
 [data-index="7"] { top: 2160px; left: 10240px; }
 
