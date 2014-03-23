@@ -99,39 +99,68 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="2"] { top: 720px; left: 11520px; }
 
 /* Left side first T */
-[data-index="3a"] { top: 720px; left: 10240px; }
-[data-index="4a"] { top: 1440px; left: 10240px; }
-[data-index="5a"] { top: 2160px; left: 10240px; }
+[data-index="3a"] { top: 1440px; left: 10240px; }
+[data-index="4a"] { top: 2160px; left: 10240px; }
+[data-index="4b"] { top: 2160px; left: 8960px; }
+[data-index="4c"] { top: 2160px; left: 7680px; }
+[data-index="4d"] { top: 2160px; left: 6400px; }
+[data-index="5a"] { top: 2880px; left: 10240px; }
 
 /* Right side first T */
-[data-index="3aa"] { top: 720px; left: 12800px; }
-[data-index="4aa"] { top: 1440px; left: 12800px; }
-[data-index="5aa"] { top: 2160px; left: 12800px; }
+[data-index="3aa"] { top: 1440px; left: 12800px; }
+[data-index="4aa"] { top: 2160px; left: 12800px; }
+[data-index="5aa"] { top: 2880px; left: 12800px; }
 
-/* Leasing subtree */
-[data-index="9"] { top: 2880px; left: 11520px; }
+/* Leasing */
+[data-index="6"] { top: 3600px; left: 11520px; }
+[data-index="7"] { top: 4320px; left: 11520px; }
 
 /* Left leasing */
-[data-index="10"] { top: 2880px; left: 10240px; }
-[data-index="12"] { top: 2880px; left: 8960px; }
-[data-index="14"] { top: 3600px; left: 8960px; }
-/* Left leasing tier 2 */
-[data-index="18"] { top: 4320px; left: 10240px; }
-[data-index="22"] { top: 4320px; left: 8960px; }
+[data-index="8a"] { top: 5040px; left: 10240px; }
+[data-index="8b"] { top: 5040px; left: 8960px; }
+[data-index="8c"] { top: 5040px; left: 7680px; }
+[data-index="9a"] { top: 5760px; left: 10240px; }
 
 /* Right leasing */
-[data-index="11"] { top: 2880px; left: 12800px; }
-[data-index="13"] { top: 2880px; left: 14080px; }
-[data-index="15"] { top: 3600px; left: 14080px; }
-/* Right leasing tier 2 */
-[data-index="19"] { top: 4320px; left: 12800px; }
-[data-index="23"] { top: 4320px; left: 14080px; }
+[data-index="8aa"] { top: 5040px; left: 12800px; }
+[data-index="9aa"] { top: 5760px; left: 12800px; }
 
-/* Center leasing */
-[data-index="16"] { top: 3600px; left: 11520px; }
-[data-index="17"] { top: 4320px; left: 11520px; }
-[data-index="20"] { top: 5040px; left: 11520px; }
-[data-index="21"] { top: 7560px; left: 11520px; }
+/* Prospecting - seismology */
+[data-index="10"] { top: 6480px; left: 11520px; }
 
+/*Left seismology*/
+[data-index="11a"] { top: 7200px; left: 10240px; }
 
+/* Right seismology */
+[data-index="11aa"] { top: 7200px; left: 12800px; }
 
+/* Center seismology */
+[data-index="12"] { top: 7920px; left: 11520px; }
+[data-index="13"] { top: 8640px; left: 11520px; }
+[data-index="14"] { top: 9360px; left: 11520px; }
+[data-index="15"] { top: 10080px; left: 11520px; }
+
+/* Financing */
+[data-index="16"] { top: 10800px; left: 11520px; }
+[data-index="17"] { top: 11520px; left: 11520px; }
+[data-index="18"] { top: 12240px; left: 11520px; }
+[data-index="19"] { top: 12960px; left: 11520px; }
+
+/* Financing left (negative) */
+[data-index="17a"] { top: 11520px; left: 10240px; }
+[data-index="17b"] { top: 11520px; left: 8960px; }
+[data-index="17c"] { top: 11520px; left: 7680px; }
+[data-index="17d"] { top: 11520px; left: 6400px; }
+[data-index="17e"] { top: 11520px; left: 5120px; }
+[data-index="18a"] { top: 12240px; left: 10240px; }
+[data-index="19a"] { top: 12960px; left: 10240px; }
+
+/* Financing left (negative) */
+[data-index="17aa"] { top: 11520px; left: 12800px; }
+[data-index="18aa"] { top: 12240px; left: 12800px; }
+[data-index="19aa"] { top: 12960px; left: 12800px; }
+
+/* Financing left (extremely negative) */
+[data-index="17bb"] { top: 11520px; left: 14080px; }
+[data-index="18bb"] { top: 12240px; left: 14080px; }
+[data-index="19bb"] { top: 12240px; left: 14080px; }
