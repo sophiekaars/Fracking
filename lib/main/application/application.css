@@ -146,7 +146,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="18"] { top: 12240px; left: 11520px; }
 [data-index="19"] { top: 12960px; left: 11520px; }
 
-/* Financing left (negative) */
+/* Financing left (positive) */
 [data-index="17a"] { top: 11520px; left: 10240px; }
 [data-index="17b"] { top: 11520px; left: 8960px; }
 [data-index="17c"] { top: 11520px; left: 7680px; }
@@ -155,12 +155,53 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="18a"] { top: 12240px; left: 10240px; }
 [data-index="19a"] { top: 12960px; left: 10240px; }
 
-/* Financing left (negative) */
+/* Financing right (negative) */
 [data-index="17aa"] { top: 11520px; left: 12800px; }
 [data-index="18aa"] { top: 12240px; left: 12800px; }
 [data-index="19aa"] { top: 12960px; left: 12800px; }
 
-/* Financing left (extremely negative) */
+/* Financing right (extremely negative) */
 [data-index="17bb"] { top: 11520px; left: 14080px; }
 [data-index="18bb"] { top: 12240px; left: 14080px; }
-[data-index="19bb"] { top: 12240px; left: 14080px; }
+[data-index="19bb"] { top: 12960px; left: 14080px; }
+
+/* Production */
+[data-index="20"] { top: 13680px; left: 11520px; }
+[data-index="21"] { top: 14400px; left: 11520px; }
+[data-index="22"] { top: 15120px; left: 11520px; }
+[data-index="23"] { top: 15840px; left: 11520px; }
+[data-index="24"] { top: 16560px; left: 11520px; }
+[data-index="25"] { top: 17280px; left: 11520px; }
+[data-index="26"] { top: 18000px; left: 11520px; }
+
+/* Production left (positive) */
+[data-index="21a"] { top: 14400px; left: 10240px; }
+[data-index="22a"] { top: 15120px; left: 10240px; }
+[data-index="23a"] { top: 15840px; left: 10240px; }
+[data-index="24a"] { top: 16560px; left: 10240px; }
+[data-index="25a"] { top: 17280px; left: 10240px; }
+
+/* Production left (extremely positive) to end */
+[data-index="21c"] { top: 14400px; left: 7680px; }
+[data-index="21d"] { top: 14400px; left: 6400px; }
+[data-index="21e"] { top: 14400px; left: 5120px; }
+[data-index="21f"] { top: 14400px; left: 3840px; }
+[data-index="21g"] { top: 14400px; left: 2560px; }
+[data-index="21h"] { top: 14400px; left: 1280px; }
+[data-index="21i"] { top: 14400px; left: 0px; }
+
+/* Production left (positive) tier in c section originate from 25a*/
+[data-index="22c"] { top: 15120px; left: 7680px; }
+[data-index="23c"] { top: 15840px; left: 7680px; }
+[data-index="24c"] { top: 16560px; left: 7680px; }
+[data-index="25c"] { top: 17280px; left: 7680px; }
+[data-index="25b"] { top: 17280px; left: 8960px; }
+
+/* Production right (negative) */
+[data-index="21aa"] { top: 14400px; left: 12800px; }
+[data-index="22aa"] { top: 15120px; left: 12800px; }
+[data-index="22bb"] { top: 15120px; left: 14080px; }
+[data-index="22cc"] { top: 15120px; left: 15360px; }
+[data-index="23aa"] { top: 15840px; left: 12800px; }
+[data-index="24aa"] { top: 16560px; left: 12800px; }
+[data-index="25aa"] { top: 17280px; left: 12800px; }
