@@ -13,7 +13,7 @@ background-repeat: no-repeat;
 [data-index="3aa"] { background-image: url(images/3aa.jpg); }
 /** Image map [data-index="4a"] { background-image: url(images/4a.jpg); } **/
 /** Image map [data-index="4aa"] { background-image: url(images/4aa.jpg); } **/
-[data-index="5a"] { background-image: url(images/5a.jpg); }
+/** Image map [data-index="5a"] { background-image: url(images/5a.jpg); } **/
 [data-index="5aa"] { background-image: url(images/5aa.jpg); }
 
 #viewport {
