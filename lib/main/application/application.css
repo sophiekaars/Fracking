@@ -30,6 +30,7 @@ background-repeat: no-repeat;
     width: 100%;
     overflow: hidden;
     position: relative;
+    background: #e4f3fa;
 }
 
 .screen {
