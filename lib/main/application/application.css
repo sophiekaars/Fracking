@@ -225,18 +225,18 @@ h1 {
     border: 1px solid #000;
     overflow: hidden;
     position: absolute;
-	margin: 150px 0 0 250px;
+	margin: 150px 0 0 160px;
 }
 
 #viewport-container {
-    width: 1530px;
+    width: 1440px;
     height: 870px;
     position: relative;
 }
 
 #minimap-viewport {
-	width: 500px;
-	height: 350px;
+	width: 400px;
+	height: 250px;
 	position: absolute;
 	z-index: 1000;
 	top: 0;
