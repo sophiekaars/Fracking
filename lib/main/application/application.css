@@ -215,7 +215,7 @@ h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 25px 0 0 700px;
+	margin: 8px 0 0 650px;
 	letter-spacing: 0.200em;
 }
 
@@ -225,23 +225,23 @@ h1 {
     border: 1px solid #000;
     overflow: hidden;
     position: absolute;
-	margin: 150px 0 0 160px;
+	margin: 110px 0 0 120px;
 }
 
 #viewport-container {
-    width: 1440px;
-    height: 870px;
+    width: 1400px;
+    height: 830px;
     position: relative;
 }
 
 #minimap-viewport {
-	width: 400px;
-	height: 250px;
+	width: 350px;
+	height: 218px;
 	position: absolute;
 	z-index: 1000;
 	top: 0;
 	left: 0;
-	border: 1px solid #000;
+	border: 8px solid #000;
 	box-sizing: border-box;
 	background: #FFF;
 	overflow: hidden;
