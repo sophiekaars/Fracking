@@ -204,12 +204,17 @@ background-repeat: no-repeat;
 [data-index="33cc"] { background-image: url(images/33cc.jpg); }
 [data-index="34cc"] { background-image: url(images/34cc.jpg); }
 
+body {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
 
 #viewport {
     width: 1280px;
     height: 720px;
     border: 1px solid #000;
-    margin: 80px auto;
+    margin: auto;
     overflow: hidden;
     position: relative;
 }
