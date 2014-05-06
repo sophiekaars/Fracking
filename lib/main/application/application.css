@@ -210,13 +210,41 @@ body {
 	margin: 0;
 }
 
+h1 {
+	font: bold 78px Helvetica Narrow, Helvetica, Arial;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 25px 0 0 700px;
+	letter-spacing: 0.200em;
+}
+
 #viewport {
     width: 1280px;
     height: 720px;
     border: 1px solid #000;
-    margin: auto;
     overflow: hidden;
+    position: absolute;
+	margin: 150px 0 0 250px;
+}
+
+#viewport-container {
+    width: 1530px;
+    height: 870px;
     position: relative;
+}
+
+#minimap-viewport {
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	background: #FFF;
+	overflow: hidden;
 }
 
 #viewport-scroller {
