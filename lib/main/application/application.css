@@ -7,6 +7,7 @@
 background-position: center center;
 background-repeat: no-repeat;
 }
+/*1. exploration middle*/
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
 [data-index="3"] { background-image: url(images/3.jpg); }
@@ -16,16 +17,34 @@ background-repeat: no-repeat;
 [data-index="7"] { background-image: url(images/7.jpg); }
 [data-index="8"] { background-image: url(images/8.jpg); }
 
+/*2. leasing middle*/
 [data-index="9"] { background-image: url(images/9.jpg); }
 [data-index="10"] { background-image: url(images/10.jpg); }
 [data-index="11"] { background-image: url(images/11.jpg); }
 [data-index="12"] { background-image: url(images/12.jpg); }
 
+/*3. prospecting middle*/
 [data-index="13"] { background-image: url(images/13.jpg); }
 [data-index="14"] { background-image: url(images/14.jpg); }
 [data-index="16"] { background-image: url(images/16.jpg); }
 [data-index="18"] { background-image: url(images/18.jpg); }
 
+/*4. financing middle*/
+[data-index="19"] { background-image: url(images/19.jpg); }
+[data-index="20"] { background-image: url(images/20.jpg); }
+[data-index="21"] { background-image: url(images/21.jpg); }
+[data-index="22"] { background-image: url(images/22.jpg); }
+
+/*5. production middle*/
+[data-index="23"] { background-image: url(images/23.jpg); }
+[data-index="24"] { background-image: url(images/24.jpg); }
+[data-index="25"] { background-image: url(images/25.jpg); }
+[data-index="26"] { background-image: url(images/26.jpg); }
+[data-index="27"] { background-image: url(images/27.jpg); }
+[data-index="28"] { background-image: url(images/28.jpg); }
+[data-index="29"] { background-image: url(images/29.jpg); }
+
+/*1. exploration left*/
 [data-index="1a"] { background-image: url(images/1a.jpg); }
 [data-index="2a"] { background-image: url(images/2a.jpg); }
 [data-index="3a"] { background-image: url(images/3a.jpg); }
@@ -39,6 +58,7 @@ background-repeat: no-repeat;
 [data-index="8a"] { background-image: url(images/8a.jpg); }
 [data-index="8b"] { background-image: url(images/8b.jpg); }
 
+/*2. leasing left*/
 [data-index="9a"] { background-image: url(images/9a.jpg); }
 [data-index="9b"] { background-image: url(images/9b.jpg); }
 [data-index="10a"] { background-image: url(images/10a.jpg); }
@@ -47,6 +67,7 @@ background-repeat: no-repeat;
 [data-index="11b"] { background-image: url(images/11b.jpg); }
 [data-index="12a"] { background-image: url(images/12a.jpg); }
 
+/*3. prospecting left*/
 [data-index="13a"] { background-image: url(images/13a.jpg); }
 [data-index="14a"] { background-image: url(images/14a.jpg); }
 [data-index="15a"] { background-image: url(images/15a.jpg); }
@@ -57,6 +78,51 @@ background-repeat: no-repeat;
 [data-index="17b"] { background-image: url(images/17b.jpg); }
 [data-index="18a"] { background-image: url(images/18a.jpg); }
 
+/*4. financing left*/
+[data-index="19a"] { background-image: url(images/19a.jpg); }
+[data-index="19b"] { background-image: url(images/19b.jpg); }
+[data-index="19c"] { background-image: url(images/19c.jpg); }
+[data-index="19d"] { background-image: url(images/19d.jpg); }
+[data-index="19e"] { background-image: url(images/19e.jpg); }
+[data-index="19f"] { background-image: url(images/19f.jpg); }
+[data-index="20a"] { background-image: url(images/20a.jpg); }
+[data-index="21a"] { background-image: url(images/21a.jpg); }
+[data-index="22a"] { background-image: url(images/22a.jpg); }
+
+/*5. production and positive impact left*/
+[data-index="23a"] { background-image: url(images/23a.jpg); }
+[data-index="23f"] { background-image: url(images/23f.jpg); }
+[data-index="23g"] { background-image: url(images/23g.jpg); }
+
+[data-index="24a"] { background-image: url(images/24a.jpg); }
+[data-index="24b"] { background-image: url(images/24b.jpg); }
+[data-index="24c"] { background-image: url(images/24c.jpg); }
+[data-index="24d"] { background-image: url(images/24d.jpg); }
+[data-index="24e"] { background-image: url(images/24e.jpg); }
+[data-index="24f"] { background-image: url(images/24f.jpg); }
+[data-index="24g"] { background-image: url(images/24g.jpg); }
+[data-index="24h"] { background-image: url(images/24h.jpg); }
+[data-index="24i"] { background-image: url(images/24i.jpg); }
+
+[data-index="25a"] { background-image: url(images/25a.jpg); }
+[data-index="25c"] { background-image: url(images/25c.jpg); }
+[data-index="25d"] { background-image: url(images/25d.jpg); }
+[data-index="25e"] { background-image: url(images/25e.jpg); }
+[data-index="25g"] { background-image: url(images/25g.jpg); }
+[data-index="25h"] { background-image: url(images/25h.jpg); }
+
+[data-index="26a"] { background-image: url(images/26a.jpg); }
+[data-index="26c"] { background-image: url(images/26c.jpg); }
+[data-index="26d"] { background-image: url(images/26d.jpg); }
+[data-index="26e"] { background-image: url(images/26e.jpg); }
+
+[data-index="27a"] { background-image: url(images/27a.jpg); }
+[data-index="27c"] { background-image: url(images/27c.jpg); }
+[data-index="27e"] { background-image: url(images/27e.jpg); }
+[data-index="28a"] { background-image: url(images/28a.jpg); }
+[data-index="28c"] { background-image: url(images/28c.jpg); }
+
+/*1. exploration right*/
 [data-index="3aa"] { background-image: url(images/3aa.jpg); }
 [data-index="4aa"] { background-image: url(images/4aa.jpg); }
 [data-index="5aa"] { background-image: url(images/5aa.jpg); }
@@ -64,17 +130,78 @@ background-repeat: no-repeat;
 [data-index="7aa"] { background-image: url(images/7aa.jpg); }
 [data-index="8aa"] { background-image: url(images/8aa.jpg); }
 
+/*2. leasing right*/
 [data-index="9aa"] { background-image: url(images/9aa.jpg); }
 [data-index="10aa"] { background-image: url(images/10aa.jpg); }
 [data-index="11aa"] { background-image: url(images/11aa.jpg); }
 [data-index="12aa"] { background-image: url(images/12aa.jpg); }
 
+/*3. prospecting right*/
 [data-index="13aa"] { background-image: url(images/13aa.jpg); }
 [data-index="14aa"] { background-image: url(images/14aa.jpg); }
 [data-index="15aa"] { background-image: url(images/15aa.jpg); }
 [data-index="16aa"] { background-image: url(images/16aa.jpg); }
 [data-index="17aa"] { background-image: url(images/17aa.jpg); }
 [data-index="18aa"] { background-image: url(images/18aa.jpg); }
+
+/*4. financing middle*/
+[data-index="19aa"] { background-image: url(images/19aa.jpg); }
+[data-index="20aa"] { background-image: url(images/20aa.jpg); }
+[data-index="20bb"] { background-image: url(images/20bb.jpg); }
+[data-index="20hh"] { background-image: url(images/20hh.jpg); }
+[data-index="20ii"] { background-image: url(images/20ii.jpg); }
+[data-index="20jj"] { background-image: url(images/20jj.jpg); }
+[data-index="21aa"] { background-image: url(images/21aa.jpg); }
+[data-index="21bb"] { background-image: url(images/21bb.jpg); }
+[data-index="21cc"] { background-image: url(images/21cc.jpg); }
+[data-index="21dd"] { background-image: url(images/21dd.jpg); }
+[data-index="21ee"] { background-image: url(images/21ee.jpg); }
+[data-index="21ff"] { background-image: url(images/21ff.jpg); }
+[data-index="21gg"] { background-image: url(images/21gg.jpg); }
+[data-index="21hh"] { background-image: url(images/21hh.jpg); }
+[data-index="22aa"] { background-image: url(images/22aa.jpg); }
+[data-index="22bb"] { background-image: url(images/22bb.jpg); }
+
+/*5. production neutral, negative and impact negative right*/
+
+[data-index="23aa"] { background-image: url(images/23aa.jpg); }
+[data-index="23bb"] { background-image: url(images/23bb.jpg); }
+
+[data-index="24aa"] { background-image: url(images/24aa.jpg); }
+[data-index="25aa"] { background-image: url(images/25aa.jpg); }
+[data-index="25ee"] { background-image: url(images/25ee.jpg); }
+[data-index="25ff"] { background-image: url(images/25ff.jpg); }
+[data-index="25gg"] { background-image: url(images/25gg.jpg); }
+[data-index="25hh"] { background-image: url(images/25hh.jpg); }
+[data-index="25ii"] { background-image: url(images/25ii.jpg); }
+[data-index="25jj"] { background-image: url(images/25jj.jpg); }
+[data-index="25kk"] { background-image: url(images/25kk.jpg); }
+[data-index="26aa"] { background-image: url(images/26aa.jpg); }
+[data-index="26ee"] { background-image: url(images/26ee.jpg); }
+[data-index="26ff"] { background-image: url(images/26ff.jpg); }
+[data-index="26gg"] { background-image: url(images/26gg.jpg); }
+[data-index="26hh"] { background-image: url(images/26hh.jpg); }
+[data-index="27aa"] { background-image: url(images/27aa.jpg); }
+[data-index="27ee"] { background-image: url(images/27ee.jpg); }
+[data-index="27gg"] { background-image: url(images/27gg.jpg); }
+[data-index="27hh"] { background-image: url(images/27hh.jpg); }
+[data-index="28aa"] { background-image: url(images/28aa.jpg); }
+[data-index="28bb"] { background-image: url(images/28bb.jpg); }
+[data-index="28cc"] { background-image: url(images/28cc.jpg); }
+[data-index="28dd"] { background-image: url(images/28dd.jpg); }
+[data-index="28ee"] { background-image: url(images/28ee.jpg); }
+
+[data-index="29aa"] { background-image: url(images/29aa.jpg); }
+[data-index="29bb"] { background-image: url(images/29bb.jpg); }
+[data-index="29cc"] { background-image: url(images/29cc.jpg); }
+[data-index="29dd"] { background-image: url(images/29dd.jpg); }
+[data-index="30cc"] { background-image: url(images/30cc.jpg); }
+[data-index="30dd"] { background-image: url(images/30dd.jpg); }
+[data-index="31cc"] { background-image: url(images/31cc.jpg); }
+[data-index="32cc"] { background-image: url(images/32cc.jpg); }
+[data-index="33cc"] { background-image: url(images/33cc.jpg); }
+[data-index="34cc"] { background-image: url(images/34cc.jpg); }
+
 
 #viewport {
     width: 1280px;
@@ -219,14 +346,17 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="9b"] { top: 5760px; left: 8960px; }
 [data-index="10a"] { top: 6480px; left: 10240px; }
 [data-index="10b"] { top: 6480px; left: 8960px; }
+[data-index="10c"] { top: 6480px; left: 7680px; }
 [data-index="11a"] { top: 7200px; left: 10240px; }
+[data-index="11b"] { top: 7200px; left: 8960px; }
+[data-index="12a"] { top: 7920px; left: 10240px; }
 
 /* 2_leasing_right */
 
-data-index="9aa"] { top: 5760px; left: 12800px; }
+[data-index="9aa"] { top: 5760px; left: 12800px; }
 [data-index="10aa"] { top: 6480px; left: 12800px; }
 [data-index="11aa"] { top: 7200px; left: 12800px; }
-[data-index="12aa"] { top: 8640px; left: 12800px; }
+[data-index="12aa"] { top: 7920px; left: 12800px; }
 
 /* 3_prospecting_middle */
 
@@ -256,44 +386,88 @@ data-index="9aa"] { top: 5760px; left: 12800px; }
 [data-index="17aa"] { top: 11520px; left: 12800px; }
 [data-index="18aa"] { top: 12240px; left: 12800px; }
 
-/* Financing */
+/* 3_Financing_middle */
 
 [data-index="19"] { top: 12960px; left: 11520px; }
-
-/* Financing left (positive) */
-[data-index="17a"] { top: 11520px; left: 10240px; }
-[data-index="17b"] { top: 11520px; left: 8960px; }
-[data-index="17c"] { top: 11520px; left: 7680px; }
-[data-index="17d"] { top: 11520px; left: 6400px; }
-[data-index="17e"] { top: 11520px; left: 5120px; }
-[data-index="18a"] { top: 12240px; left: 10240px; }
-[data-index="19a"] { top: 12960px; left: 10240px; }
-
-/* Financing right (negative) */
-[data-index="17aa"] { top: 11520px; left: 12800px; }
-[data-index="18aa"] { top: 12240px; left: 12800px; }
-[data-index="19aa"] { top: 12960px; left: 12800px; }
-
-/* Financing right (extremely negative) */
-[data-index="17bb"] { top: 11520px; left: 14080px; }
-[data-index="18bb"] { top: 12240px; left: 14080px; }
-[data-index="19bb"] { top: 12960px; left: 14080px; }
-
-/* Production */
 [data-index="20"] { top: 13680px; left: 11520px; }
 [data-index="21"] { top: 14400px; left: 11520px; }
 [data-index="22"] { top: 15120px; left: 11520px; }
+
+/* 3_Financing_left */
+
+[data-index="19a"] { top: 12960px; left: 10240px; }
+[data-index="19b"] { top: 12960px; left: 8960px; }
+[data-index="19c"] { top: 12960px; left: 7680px; }
+[data-index="19d"] { top: 12960px; left: 6400px; }
+[data-index="19e"] { top: 12960px; left: 5120px; }
+[data-index="19f"] { top: 12960px; left: 3840px; }
+[data-index="20a"] { top: 13680px; left: 10240px; }
+[data-index="21a"] { top: 14400px; left: 10240px; }
+[data-index="22a"] { top: 15120px; left: 10240px; }
+
+/* 3_Financing_right */
+
+[data-index="19aa"] { top: 12960px; left: 12800px; }
+[data-index="20aa"] { top: 13680px; left: 12800px; }
+[data-index="21aa"] { top: 14400px; left: 12800px; }
+[data-index="22aa"] { top: 15120px; left: 12800px; }
+
+/* 3_Financing_extreme right */
+
+[data-index="20bb"] { top: 13680px; left: 14080px; }
+[data-index="21bb"] { top: 14400px; left: 14080px; }
+[data-index="21cc"] { top: 14400px; left: 15360px; }
+[data-index="21dd"] { top: 14400px; left: 16649px; }
+[data-index="21ee"] { top: 14400px; left: 17920px; }
+[data-index="21ff"] { top: 14400px; left: 19200px; }
+[data-index="21gg"] { top: 14400px; left: 20480px; }
+[data-index="21hh"] { top: 14400px; left: 21760px; }
+[data-index="20hh"] { top: 13680px; left: 21760px; }
+[data-index="20ii"] { top: 13680px; left: 23040px; }
+[data-index="20jj"] { top: 13680px; left: 24320px; }
+[data-index="22bb"] { top: 15120px; left: 14080px; }
+
+/* 4_Production_crossroads */
+
 [data-index="23"] { top: 15840px; left: 11520px; }
+[data-index="23a"] { top: 15840px; left: 10240px; }
+[data-index="23aa"] { top: 15840px; left: 12800px; }
+[data-index="23bb"] { top: 15840px; left: 14080px; }
+
+/* 4_Production_middle */
+
 [data-index="24"] { top: 16560px; left: 11520px; }
 [data-index="25"] { top: 17280px; left: 11520px; }
 [data-index="26"] { top: 18000px; left: 11520px; }
+[data-index="27"] { top: 18720px; left: 11520px; }
+[data-index="28"] { top: 19440px; left: 11520px; }
+[data-index="29"] { top: 20160px; left: 11520px; }
 
-/* Production left (positive) */
-[data-index="21a"] { top: 14400px; left: 10240px; }
-[data-index="22a"] { top: 15120px; left: 10240px; }
-[data-index="23a"] { top: 15840px; left: 10240px; }
+/* 4_Production_left */
+
 [data-index="24a"] { top: 16560px; left: 10240px; }
 [data-index="25a"] { top: 17280px; left: 10240px; }
+[data-index="26a"] { top: 18000px; left: 10240px; }
+[data-index="27a"] { top: 18720px; left: 10240px; }
+[data-index="28a"] { top: 19440px; left: 10240px; }
+[data-index="28b"] { top: 19440px; left: 8960px; }
+[data-index="28c"] { top: 19440px; left: 7680px; }
+[data-index="27c"] { top: 18720px; left: 7680px; }
+[data-index="26c"] { top: 18000px; left: 7680px; }
+[data-index="25c"] { top: 17270px; left: 7680px; }
+[data-index="24c"] { top: 16560px; left: 7680px; }
+
+/* 4_Production_right */
+
+[data-index="24aa"] { top: 16560px; left: 12800px; }
+[data-index="25aa"] { top: 17280px; left: 12800px; }
+[data-index="26aa"] { top: 18000px; left: 12800px; }
+[data-index="27aa"] { top: 18720px; left: 12800px; }
+[data-index="28aa"] { top: 19440px; left: 12800px; }
+[data-index="28bb"] { top: 19440px; left: 14080px; }
+[data-index="28cc"] { top: 19440px; left: 15360px; }
+[data-index="28dd"] { top: 19440px; left: 16640px; }
+[data-index="28ee"] { top: 19440px; left: 17920px; }
 
 /* Production left (extremely positive) to end */
 [data-index="21c"] { top: 14400px; left: 7680px; }
@@ -310,15 +484,6 @@ data-index="9aa"] { top: 5760px; left: 12800px; }
 [data-index="24c"] { top: 16560px; left: 7680px; }
 [data-index="25c"] { top: 17280px; left: 7680px; }
 [data-index="25b"] { top: 17280px; left: 8960px; }
-
-/* Production right (negative) */
-[data-index="21aa"] { top: 14400px; left: 12800px; }
-[data-index="22aa"] { top: 15120px; left: 12800px; }
-[data-index="22bb"] { top: 15120px; left: 14080px; }
-[data-index="22cc"] { top: 15120px; left: 15360px; }
-[data-index="23aa"] { top: 15840px; left: 12800px; }
-[data-index="24aa"] { top: 16560px; left: 12800px; }
-[data-index="25aa"] { top: 17280px; left: 12800px; }
 
 /* Production extreme right (negative) */
 [data-index="25bb"] { top: 17280px; left: 12800px; }
