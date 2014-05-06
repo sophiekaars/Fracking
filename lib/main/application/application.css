@@ -9,12 +9,54 @@ background-repeat: no-repeat;
 }
 [data-index="1"] { background-image: url(images/1.jpg); }
 [data-index="2"] { background-image: url(images/2.jpg); }
+[data-index="3"] { background-image: url(images/3.jpg); }
+[data-index="4"] { background-image: url(images/4.jpg); }
+[data-index="5"] { background-image: url(images/5.jpg); }
+[data-index="6"] { background-image: url(images/6.jpg); }
+[data-index="7"] { background-image: url(images/7.jpg); }
+[data-index="8"] { background-image: url(images/8.jpg); }
+[data-index="9"] { background-image: url(images/9.jpg); }
+[data-index="10"] { background-image: url(images/10.jpg); }
+[data-index="11"] { background-image: url(images/11.jpg); }
+[data-index="12"] { background-image: url(images/12.jpg); }
+[data-index="13"] { background-image: url(images/13.jpg); }
+[data-index="14"] { background-image: url(images/14.jpg); }
+[data-index="16"] { background-image: url(images/16.jpg); }
+[data-index="18"] { background-image: url(images/18.jpg); }
+[data-index="1a"] { background-image: url(images/1a.jpg); }
+[data-index="2a"] { background-image: url(images/2a.jpg); }
 [data-index="3a"] { background-image: url(images/3a.jpg); }
+[data-index="4a"] { background-image: url(images/4a.jpg); }
+[data-index="5a"] { background-image: url(images/5a.jpg); }
+[data-index="6a"] { background-image: url(images/6a.jpg); }
+[data-index="7a"] { background-image: url(images/7a.jpg); }
+[data-index="8a"] { background-image: url(images/8a.jpg); }
+[data-index="9a"] { background-image: url(images/9a.jpg); }
+[data-index="10a"] { background-image: url(images/10a.jpg); }
+[data-index="11a"] { background-image: url(images/11a.jpg); }
+[data-index="12a"] { background-image: url(images/12a.jpg); }
+[data-index="13a"] { background-image: url(images/13a.jpg); }
+[data-index="14a"] { background-image: url(images/14a.jpg); }
+[data-index="15a"] { background-image: url(images/15a.jpg); }
+[data-index="16a"] { background-image: url(images/16a.jpg); }
+[data-index="17a"] { background-image: url(images/17a.jpg); }
+[data-index="18a"] { background-image: url(images/18a.jpg); }
 [data-index="3aa"] { background-image: url(images/3aa.jpg); }
-/** Image map [data-index="4a"] { background-image: url(images/4a.jpg); } **/
-/** Image map [data-index="4aa"] { background-image: url(images/4aa.jpg); } **/
-/** Image map [data-index="5a"] { background-image: url(images/5a.jpg); } **/
+[data-index="4aa"] { background-image: url(images/4aa.jpg); }
 [data-index="5aa"] { background-image: url(images/5aa.jpg); }
+[data-index="6aa"] { background-image: url(images/6aa.jpg); }
+[data-index="7aa"] { background-image: url(images/7aa.jpg); }
+[data-index="8aa"] { background-image: url(images/8aa.jpg); }
+[data-index="9aa"] { background-image: url(images/9aa.jpg); }
+[data-index="10aa"] { background-image: url(images/10aa.jpg); }
+[data-index="11aa"] { background-image: url(images/11aa.jpg); }
+[data-index="12aa"] { background-image: url(images/12aa.jpg); }
+[data-index="13aa"] { background-image: url(images/13aa.jpg); }
+[data-index="14aa"] { background-image: url(images/14aa.jpg); }
+[data-index="15aa"] { background-image: url(images/15aa.jpg); }
+[data-index="16aa"] { background-image: url(images/16aa.jpg); }
+[data-index="17aa"] { background-image: url(images/17aa.jpg); }
+[data-index="18aa"] { background-image: url(images/18aa.jpg); }
 
 #viewport {
     width: 1280px;
@@ -111,56 +153,92 @@ Most Left: 0
 Center: 11520 ((25600[maxSize]/2)[halfMaxSize] - 1280[screenSize])
 Most Right: 24320 (25600[maxSize]-1280[screenSize])
 ----------------------------------*/
+/* 1_exploration-middle */
 
 [data-index="1"] { top: 0px; left: 11520px; }
 [data-index="2"] { top: 720px; left: 11520px; }
-
-/* Left side first T */
-[data-index="3a"] { top: 1440px; left: 10240px; }
-[data-index="4a"] { top: 2160px; left: 10240px; }
-[data-index="4b"] { top: 2160px; left: 8960px; }
-[data-index="4c"] { top: 2160px; left: 7680px; }
-[data-index="4d"] { top: 2160px; left: 6400px; }
-[data-index="5a"] { top: 2880px; left: 10240px; }
-
-/* Right side first T */
-[data-index="3aa"] { top: 1440px; left: 12800px; }
-[data-index="4aa"] { top: 2160px; left: 12800px; }
-[data-index="5aa"] { top: 2880px; left: 12800px; }
-
-/* Leasing */
+[data-index="3"] { top: 1440px; left: 11520px; }
+[data-index="4"] { top: 2160px; left: 11520px; }
+[data-index="5"] { top: 2880px; left: 11520px; }
 [data-index="6"] { top: 3600px; left: 11520px; }
 [data-index="7"] { top: 4320px; left: 11520px; }
+[data-index="8"] { top: 5040px; left: 11520px; }
 
-/* Left leasing */
+
+/* 1_exploration-left */
+
+[data-index="1a"] { top: 0px; left: 10240px; }
+[data-index="2a"] { top: 720px; left: 10240px; }
+[data-index="3a"] { top: 1440px; left: 10240px; }
+[data-index="4a"] { top: 2160px; left: 10240px; }
+[data-index="5a"] { top: 2880px; left: 10240px; }
+[data-index="6a"] { top: 3600px; left: 10240px; }
+[data-index="7a"] { top: 4320px; left: 10240px; }
+[data-index="7b"] { top: 4320px; left: 8960px; }
+[data-index="7c"] { top: 4320px; left: 7680px; }
+[data-index="7d"] { top: 4320px; left: 6400px; }
 [data-index="8a"] { top: 5040px; left: 10240px; }
-[data-index="8b"] { top: 5040px; left: 8960px; }
-[data-index="8c"] { top: 5040px; left: 7680px; }
-[data-index="9a"] { top: 5760px; left: 10240px; }
 
-/* Right leasing */
+/* 1_exploration-right */
+
+[data-index="4aa"] { top: 2160px; left: 12800px; }
+[data-index="5aa"] { top: 2880px; left: 12800px; }
+[data-index="6aa"] { top: 3600px; left: 12800px; }
+[data-index="7aa"] { top: 4320px; left: 12800px; }
 [data-index="8aa"] { top: 5040px; left: 12800px; }
-[data-index="9aa"] { top: 5760px; left: 12800px; }
 
-/* Prospecting - seismology */
+/* 2_leasing_middle */
+
+[data-index="9"] { top: 5760px; left: 11520px; }
 [data-index="10"] { top: 6480px; left: 11520px; }
+[data-index="11"] { top: 7200px; left: 11520px; }
+[data-index="12"] { top: 7920px; left: 11520px; }
 
-/*Left seismology*/
+/* 2_leasing_left */
+
+[data-index="9a"] { top: 5760px; left: 10240px; }
+[data-index="9a"] { top: 5760px; left: 8960px; }
+[data-index="10a"] { top: 6480px; left: 10240px; }
+[data-index="10b"] { top: 6480px; left: 8960px; }
 [data-index="11a"] { top: 7200px; left: 10240px; }
 
-/* Right seismology */
-[data-index="11aa"] { top: 7200px; left: 12800px; }
+/* 2_leasing_right */
 
-/* Center seismology */
-[data-index="12"] { top: 7920px; left: 11520px; }
+data-index="9aa"] { top: 5760px; left: 12800px; }
+[data-index="10aa"] { top: 6480px; left: 12800px; }
+[data-index="11aa"] { top: 7200px; left: 12800px; }
+[data-index="12aa"] { top: 8640px; left: 12800px; }
+
+/* 3_prospecting_middle */
+
 [data-index="13"] { top: 8640px; left: 11520px; }
 [data-index="14"] { top: 9360px; left: 11520px; }
-[data-index="15"] { top: 10080px; left: 11520px; }
+[data-index="16"] { top: 10800px; left: 11520px; }
+[data-index="18"] { top: 12240px; left: 11520px; }
+
+/* 3_prospecting_left */
+
+[data-index="13a"] { top: 8640px; left: 10240px; }
+[data-index="14a"] { top: 9360px; left: 10240px; }
+[data-index="15a"] { top: 10080px; left: 10240px; }
+[data-index="16a"] { top: 10800px; left: 10240px; }
+[data-index="16b"] { top: 10800px; left: 8960px; }
+[data-index="16c"] { top: 10800px; left: 7680px; }
+[data-index="17a"] { top: 11520px; left: 10240px; }
+[data-index="17b"] { top: 11520px; left: 8960px; }
+[data-index="18a"] { top: 12240px; left: 10240px; }
+
+/* 3_prospecting_right */
+
+[data-index="13aa"] { top: 8640px; left: 12800px; }
+[data-index="14aa"] { top: 9360px; left: 12800px; }
+[data-index="15aa"] { top: 10080px; left: 12800px; }
+[data-index="16aa"] { top: 10800px; left: 12800px; }
+[data-index="17aa"] { top: 11520px; left: 12800px; }
+[data-index="18aa"] { top: 12240px; left: 12800px; }
 
 /* Financing */
-[data-index="16"] { top: 10800px; left: 11520px; }
-[data-index="17"] { top: 11520px; left: 11520px; }
-[data-index="18"] { top: 12240px; left: 11520px; }
+
 [data-index="19"] { top: 12960px; left: 11520px; }
 
 /* Financing left (positive) */
