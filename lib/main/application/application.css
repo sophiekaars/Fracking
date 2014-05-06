@@ -15,14 +15,17 @@ background-repeat: no-repeat;
 [data-index="6"] { background-image: url(images/6.jpg); }
 [data-index="7"] { background-image: url(images/7.jpg); }
 [data-index="8"] { background-image: url(images/8.jpg); }
+
 [data-index="9"] { background-image: url(images/9.jpg); }
 [data-index="10"] { background-image: url(images/10.jpg); }
 [data-index="11"] { background-image: url(images/11.jpg); }
 [data-index="12"] { background-image: url(images/12.jpg); }
+
 [data-index="13"] { background-image: url(images/13.jpg); }
 [data-index="14"] { background-image: url(images/14.jpg); }
 [data-index="16"] { background-image: url(images/16.jpg); }
 [data-index="18"] { background-image: url(images/18.jpg); }
+
 [data-index="1a"] { background-image: url(images/1a.jpg); }
 [data-index="2a"] { background-image: url(images/2a.jpg); }
 [data-index="3a"] { background-image: url(images/3a.jpg); }
@@ -30,27 +33,42 @@ background-repeat: no-repeat;
 [data-index="5a"] { background-image: url(images/5a.jpg); }
 [data-index="6a"] { background-image: url(images/6a.jpg); }
 [data-index="7a"] { background-image: url(images/7a.jpg); }
+[data-index="7b"] { background-image: url(images/7b.jpg); }
+[data-index="7c"] { background-image: url(images/7c.jpg); }
+[data-index="7d"] { background-image: url(images/7d.jpg); }
 [data-index="8a"] { background-image: url(images/8a.jpg); }
+[data-index="8b"] { background-image: url(images/8b.jpg); }
+
 [data-index="9a"] { background-image: url(images/9a.jpg); }
+[data-index="9b"] { background-image: url(images/9b.jpg); }
 [data-index="10a"] { background-image: url(images/10a.jpg); }
+[data-index="10b"] { background-image: url(images/10b.jpg); }
 [data-index="11a"] { background-image: url(images/11a.jpg); }
+[data-index="11b"] { background-image: url(images/11b.jpg); }
 [data-index="12a"] { background-image: url(images/12a.jpg); }
+
 [data-index="13a"] { background-image: url(images/13a.jpg); }
 [data-index="14a"] { background-image: url(images/14a.jpg); }
 [data-index="15a"] { background-image: url(images/15a.jpg); }
 [data-index="16a"] { background-image: url(images/16a.jpg); }
+[data-index="16b"] { background-image: url(images/16b.jpg); }
+[data-index="16c"] { background-image: url(images/16c.jpg); }
 [data-index="17a"] { background-image: url(images/17a.jpg); }
+[data-index="17b"] { background-image: url(images/17b.jpg); }
 [data-index="18a"] { background-image: url(images/18a.jpg); }
+
 [data-index="3aa"] { background-image: url(images/3aa.jpg); }
 [data-index="4aa"] { background-image: url(images/4aa.jpg); }
 [data-index="5aa"] { background-image: url(images/5aa.jpg); }
 [data-index="6aa"] { background-image: url(images/6aa.jpg); }
 [data-index="7aa"] { background-image: url(images/7aa.jpg); }
 [data-index="8aa"] { background-image: url(images/8aa.jpg); }
+
 [data-index="9aa"] { background-image: url(images/9aa.jpg); }
 [data-index="10aa"] { background-image: url(images/10aa.jpg); }
 [data-index="11aa"] { background-image: url(images/11aa.jpg); }
 [data-index="12aa"] { background-image: url(images/12aa.jpg); }
+
 [data-index="13aa"] { background-image: url(images/13aa.jpg); }
 [data-index="14aa"] { background-image: url(images/14aa.jpg); }
 [data-index="15aa"] { background-image: url(images/15aa.jpg); }
@@ -178,6 +196,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="7c"] { top: 4320px; left: 7680px; }
 [data-index="7d"] { top: 4320px; left: 6400px; }
 [data-index="8a"] { top: 5040px; left: 10240px; }
+[data-index="8b"] { top: 5040px; left: 8960px; }
 
 /* 1_exploration-right */
 
@@ -197,7 +216,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 /* 2_leasing_left */
 
 [data-index="9a"] { top: 5760px; left: 10240px; }
-[data-index="9a"] { top: 5760px; left: 8960px; }
+[data-index="9b"] { top: 5760px; left: 8960px; }
 [data-index="10a"] { top: 6480px; left: 10240px; }
 [data-index="10b"] { top: 6480px; left: 8960px; }
 [data-index="11a"] { top: 7200px; left: 10240px; }
