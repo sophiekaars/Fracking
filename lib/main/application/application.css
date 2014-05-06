@@ -489,8 +489,17 @@ h1 {
 	top: 0;
 	left: 0;
 	background: url(images/minimap.png) no-repeat center center;
-	margin-left: -240px;
 	margin-top: 50px;
+}
+
+#star {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	z-index: 20;
+	margin-left: 353px;
+	margin-top: 16px;
+	opacity: 0;
 }
 
 #yah {
