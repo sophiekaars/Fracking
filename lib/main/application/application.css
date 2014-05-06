@@ -431,6 +431,13 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: Helvetica Narrow, Helvetica, Arial;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
 }
 
 h1 {
@@ -439,10 +446,26 @@ h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 8px 0 0 600px;
-	letter-spacing: 0.200em;
-	font-family: Futura;
+	margin: 8px 0 0 680px;
+	letter-spacing: 0.600em;
 	text-transform: uppercase;
+}
+
+h2 {
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 42px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 30px 0 0 120px;
+	letter-spacing: 0.600em;
+	text-transform: uppercase;
+	padding: 10px 0;
+	width: 300px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
 }
 
 #viewport {
@@ -461,8 +484,8 @@ h1 {
 }
 
 #minimap-viewport {
-	width: 350px;
-	height: 218px;
+	width: 575px;
+	height: 530px;
 	position: absolute;
 	z-index: 1000;
 	top: 0;
@@ -472,6 +495,17 @@ h1 {
 	background: #FFF;
 	overflow: hidden;
 	margin: 30px 0 0 30px;
+	display: none;
+}
+
+#close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 60px;
+	color: #000;
+	margin: -15px -5px 0 0;
+	cursor: pointer;
 }
 
 #viewport-scroller {
@@ -483,13 +517,13 @@ h1 {
 }
 
 #minimap {
-	width: 917px;
-	height: 841px;
+	width: 545px;
+	height: 500px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background: url(images/minimap.png) no-repeat center center;
-	margin-top: 50px;
+	margin: 5px 0 0 5px;
 }
 
 #star {
@@ -503,16 +537,45 @@ h1 {
 }
 
 #yah {
-	width: 40px;
-	height: 20px;
+	width: 10px;
+	height: 10px;
 	position: absolute;
-	background: #F00;
 	z-index: 100;
-	margin-left: 353px;
-	margin-top: 16px;
-	font-size: 8px;
-	font-weight: bold;
-	text-align: center;
+	margin-left: 217px;
+	margin-top: 10px;
+}
+
+.pulse {
+  width: 5px;
+  height: 5px;
+  border: 2px solid #ff0000;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #ff0000;
+  z-index: 10;
+  position: absolute;
+}
+
+.dot {
+  border: 5px solid #ff0000;
+  background: transparent;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation: pulse 3s ease-out;
+  -moz-animation: pulse 3s ease-out;
+  animation: pulse 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  z-index: 1;
+  opacity: 0;
 }
 
 .screen {
@@ -590,4 +653,53 @@ video[data-autoplay="no"] {
 .screen {
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+/* http://codepen.io/danest/pen/GxfqB
+----------------------------------*/
+
+@-moz-keyframes pulse {
+ 0% {
+    -moz-transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    -moz-transform: scale(0);
+    opacity: 0.1;
+ }
+ 50% {
+    -moz-transform: scale(0.1);
+    opacity: 0.3;
+ }
+ 75% {
+    -moz-transform: scale(0.5);
+    opacity: 0.5;
+ }
+ 100% {
+    -moz-transform: scale(1);
+    opacity: 0.0;
+ }
+}
+
+@-webkit-keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(0);
+    opacity: 0.0;
+ }
+ 25% {
+    -webkit-transform: scale(0);
+    opacity: 0.1;
+ }
+ 50% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.3;
+ }
+ 75% {
+    -webkit-transform: scale(0.5);
+    opacity: 0.5;
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+ }
 }

@@ -10,18 +10,26 @@
     <title>Fracking infomaze</title>
     <meta name="description" content="Fracing Infomaze">
     <meta name="author" content="Sophie KS">
-
+	
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script id="bootstrap" type="text/javascript" charset="utf-8"
             src="bootstrap.js"></script>
+	
+	<script type="text/javascript" src="//use.typekit.net/dpf6sra.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 	<div id="viewport-container">
-		<h1>INFOMAZE</h1>
+		<h1 class="tk-futura-pt">INFOMAZE</h1>
+		<h2 id="open">Map</h2>
 		<div id="minimap-viewport">
 			<div id="minimap">
+				<div id="close">&times;</div>
 				<div id="star"></div>
-				<div id="yah">You Are Here</div>
+				<div id="yah">
+					<div class="dot"></div>
+					<div class="pulse"></div>
+				</div>
 			</div>
 		</div>
 		<component id="main-application"></component>
