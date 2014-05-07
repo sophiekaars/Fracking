@@ -468,18 +468,23 @@ h2 {
 	text-align: center;
 }
 
+html, body { height: 100%; }
+
+#wrapper {display:table;height:100%;}
+#cell {display:table-cell; vertical-align:middle;}
+
 #viewport {
     width: 1280px;
     height: 720px;
     border: 1px solid #000;
     overflow: hidden;
     position: absolute;
-	margin: 110px 0 0 60px;
+	margin: 110px 0 50px 60px;
 }
 
 #viewport-container {
     width: 1400px;
-    height: 830px;
+    height: 870px;
     position: relative;
 	margin: 0 auto;
 }

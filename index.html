@@ -19,20 +19,24 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<div id="viewport-container">
-		<h1 class="tk-futura-pt">INFOMAZE</h1>
-		<h2 id="open">Map</h2>
-		<div id="minimap-viewport">
-			<div id="minimap">
-				<div id="close">&times;</div>
-				<div id="star"></div>
-				<div id="yah">
-					<div class="dot"></div>
-					<div class="pulse"></div>
+	<div id="wrapper">
+		<div id="cell">
+			<div id="viewport-container">
+				<h1 class="tk-futura-pt">INFOMAZE</h1>
+				<h2 id="open">Map</h2>
+				<div id="minimap-viewport">
+					<div id="minimap">
+						<div id="close">&times;</div>
+						<div id="star"></div>
+						<div id="yah">
+							<div class="dot"></div>
+							<div class="pulse"></div>
+						</div>
+					</div>
 				</div>
+				<component id="main-application"></component>
 			</div>
 		</div>
-		<component id="main-application"></component>
 	</div>
 </body>
 </html>
