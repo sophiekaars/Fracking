@@ -481,6 +481,17 @@ h2 {
     width: 1400px;
     height: 830px;
     position: relative;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1400px)
+{
+  #viewport {
+	margin-right: 120px;
+  }
+  #viewport-container {
+	width: 1520px;
+  }
 }
 
 #minimap-viewport {
