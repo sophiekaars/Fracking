@@ -120,10 +120,10 @@
 /*1. exploration right*/
 [data-index="3aa"] { background-image: url(images/3aa.jpg); }
 [data-index="4aa"] { background-image: url(images/4aa.jpg); }
-[data-index="5aa"] { background-image: url(images/5aa.jpg); }
+[data-index="5aa"] { background-image: url(images/5aa.gif); }
 [data-index="6aa"] { background-image: url(images/6aa.jpg); }
 [data-index="7aa"] { background-image: url(images/7aa.jpg); }
-[data-index="8aa"] { background-image: url(images/8aa.jpg); }
+[data-index="8aa"] { background-image: url(images/8aa.gif); }
 
 /*2. leasing right*/
 [data-index="9aa"] { background-image: url(images/9aa.jpg); }
