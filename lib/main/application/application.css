@@ -137,6 +137,7 @@
 [data-index="15aa"] { background-image: url(images/15aa.jpg); }
 [data-index="16aa"] { background-image: url(images/16aa.jpg); }
 [data-index="17aa"] { background-image: url(images/17aa.gif); }
+[data-index="17aa"].last-frame { background-image: url(images/17aa_last.jpg); }
 [data-index="18aa"] { background-image: url(images/18aa.gif); }
 
 /*4. financing middle*/
