@@ -56,10 +56,14 @@
 [data-index="9a"] { background-image: url(images/9a.jpg); }
 [data-index="9b"] { background-image: url(images/9b.jpg); }
 [data-index="10a"] { background-image: url(images/10a.jpg); }
-[data-index="10b"] { background-image: url(images/10b.jpg); }
+[data-index="10b"] { background-image: url(images/10b.gif); }
+[data-index="10c"] { background-image: url(images/10c.gif); }
 [data-index="11a"] { background-image: url(images/11a.jpg); }
 [data-index="11b"] { background-image: url(images/11b.jpg); }
+[data-index="11c"] { background-image: url(images/11c.gif); }
 [data-index="12a"] { background-image: url(images/12a.jpg); }
+[data-index="12c"] { background-image: url(images/12c.gif); }
+[data-index="13c"] { background-image: url(images/13c.gif); }
 
 /*3. prospecting left*/
 [data-index="13a"] { background-image: url(images/13a.jpg); }
@@ -256,7 +260,10 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="10c"] { top: 6480px; left: 7680px; }
 [data-index="11a"] { top: 7200px; left: 10240px; }
 [data-index="11b"] { top: 7200px; left: 8960px; }
+[data-index="11c"] { top: 7200px; left: 7680px; }
 [data-index="12a"] { top: 7920px; left: 10240px; }
+[data-index="12c"] { top: 7920px; left: 7680px; }
+[data-index="13c"] { top: 8640px; left: 7680px; }
 
 /* 2_leasing_right */
 
