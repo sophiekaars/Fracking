@@ -89,12 +89,15 @@
 
 /*5. production and positive impact left*/
 [data-index="23a"] { background-image: url(images/23a.jpg); }
+[data-index="23b"] { background-image: url(images/23b.jpg); }
+[data-index="23c"] { background-image: url(images/23c.jpg); }
+[data-index="23d"] { background-image: url(images/23d.jpg); }
 [data-index="23f"] { background-image: url(images/23f.jpg); }
 [data-index="23g"] { background-image: url(images/23g.jpg); }
 
 [data-index="24a"] { background-image: url(images/24a.jpg); }
 [data-index="24b"] { background-image: url(images/24b.jpg); }
-[data-index="24c"] { background-image: url(images/24c.jpg); }
+[data-index="24c"] { background-image: url(images/24c.gif); }
 [data-index="24d"] { background-image: url(images/24d.jpg); }
 [data-index="24e"] { background-image: url(images/24e.jpg); }
 [data-index="24f"] { background-image: url(images/24f.jpg); }
@@ -103,6 +106,7 @@
 [data-index="24i"] { background-image: url(images/24i.jpg); }
 
 [data-index="25a"] { background-image: url(images/25a.jpg); }
+[data-index="25b"] { background-image: url(images/25b.jpg); }
 [data-index="25c"] { background-image: url(images/25c.jpg); }
 [data-index="25d"] { background-image: url(images/25d.jpg); }
 [data-index="25e"] { background-image: url(images/25e.jpg); }
@@ -110,11 +114,14 @@
 [data-index="25h"] { background-image: url(images/25h.jpg); }
 
 [data-index="26a"] { background-image: url(images/26a.jpg); }
+[data-index="26b"] { background-image: url(images/26b.jpg); }
 [data-index="26c"] { background-image: url(images/26c.jpg); }
 [data-index="26d"] { background-image: url(images/26d.jpg); }
 [data-index="26e"] { background-image: url(images/26e.jpg); }
+[data-index="26g"] { background-image: url(images/26g.jpg); }
 
 [data-index="27a"] { background-image: url(images/27a.jpg); }
+[data-index="27b"] { background-image: url(images/27b.jpg); }
 [data-index="27c"] { background-image: url(images/27c.jpg); }
 [data-index="27e"] { background-image: url(images/27e.jpg); }
 [data-index="28a"] { background-image: url(images/28a.jpg); }
@@ -133,7 +140,7 @@
 [data-index="9aa"] { background-image: url(images/9aa.jpg); }
 [data-index="10aa"] { background-image: url(images/10aa.jpg); }
 [data-index="11aa"] { background-image: url(images/11aa.gif); }
-[data-index="12aa"] { background-image: url(images/12aa.jpg); }
+[data-index="12aa"] { background-image: url(images/12aa.gif); }
 
 /*3. prospecting right*/
 [data-index="13aa"] { background-image: url(images/13aa.jpg); }
@@ -148,19 +155,21 @@
 [data-index="19aa"] { background-image: url(images/19aa.jpg); }
 [data-index="20aa"] { background-image: url(images/20aa.jpg); }
 [data-index="20bb"] { background-image: url(images/20bb.jpg); }
-[data-index="20hh"] { background-image: url(images/20hh.jpg); }
-[data-index="20ii"] { background-image: url(images/20ii.jpg); }
+[data-index="20gg"] { background-image: url(images/20gg.jpg); }
+[data-index="20hh"] { background-image: url(images/20hh.gif); }
+[data-index="20ii"] { background-image: url(images/20ii.gif); }
 [data-index="20jj"] { background-image: url(images/20jj.jpg); }
 [data-index="21aa"] { background-image: url(images/21aa.gif); }
 [data-index="21bb"] { background-image: url(images/21bb.jpg); }
-[data-index="21cc"] { background-image: url(images/21cc.jpg); }
-[data-index="21dd"] { background-image: url(images/21dd.jpg); }
-[data-index="21ee"] { background-image: url(images/21ee.jpg); }
-[data-index="21ff"] { background-image: url(images/21ff.jpg); }
+[data-index="21cc"] { background-image: url(images/21cc.gif); }
+[data-index="21dd"] { background-image: url(images/21dd.gif); }
+[data-index="21ee"] { background-image: url(images/21ee.gif); }
+[data-index="21ff"] { background-image: url(images/21ff.gif); }
 [data-index="21gg"] { background-image: url(images/21gg.gif); }
 [data-index="21hh"] { background-image: url(images/21hh.gif); }
 [data-index="22aa"] { background-image: url(images/22aa.jpg); }
 [data-index="22bb"] { background-image: url(images/22bb.jpg); }
+[data-index="22cc"] { background-image: url(images/22cc.jpg); }
 
 /*5. production neutral, negative and impact negative right*/
 
@@ -169,14 +178,16 @@
 
 [data-index="24aa"] { background-image: url(images/24aa.jpg); }
 [data-index="25aa"] { background-image: url(images/25aa.jpg); }
+[data-index="25bb"] { background-image: url(images/25bb.jpg); }
 [data-index="25ee"] { background-image: url(images/25ee.jpg); }
-[data-index="25ff"] { background-image: url(images/25ff.jpg); }
+[data-index="25ff"] { background-image: url(images/25ff.gif); }
 [data-index="25gg"] { background-image: url(images/25gg.jpg); }
 [data-index="25hh"] { background-image: url(images/25hh.jpg); }
 [data-index="25ii"] { background-image: url(images/25ii.gif); }
 [data-index="25jj"] { background-image: url(images/25jj.jpg); }
 [data-index="25kk"] { background-image: url(images/25kk.jpg); }
 [data-index="26aa"] { background-image: url(images/26aa.jpg); }
+[data-index="26cc"] { background-image: url(images/26cc.jpg); }
 [data-index="26ee"] { background-image: url(images/26ee.jpg); }
 [data-index="26ff"] { background-image: url(images/26ff.jpg); }
 [data-index="26gg"] { background-image: url(images/26gg.gif); }
@@ -196,7 +207,7 @@
 [data-index="29bb"] { background-image: url(images/29bb.jpg); }
 [data-index="29cc"] { background-image: url(images/29cc.jpg); }
 [data-index="29dd"] { background-image: url(images/29dd.gif); }
-[data-index="30cc"] { background-image: url(images/30cc.jpg); }
+[data-index="30cc"] { background-image: url(images/30cc.gif); }
 [data-index="30dd"] { background-image: url(images/30dd.jpg); }
 [data-index="31cc"] { background-image: url(images/31cc.jpg); }
 [data-index="32cc"] { background-image: url(images/32cc.jpg); }
@@ -336,10 +347,12 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="21ff"] { top: 14400px; left: 19200px; }
 [data-index="21gg"] { top: 14400px; left: 20480px; }
 [data-index="21hh"] { top: 14400px; left: 21760px; }
+[data-index="20gg"] { top: 13680px; left: 20480px; }
 [data-index="20hh"] { top: 13680px; left: 21760px; }
 [data-index="20ii"] { top: 13680px; left: 23040px; }
 [data-index="20jj"] { top: 13680px; left: 24320px; }
 [data-index="22bb"] { top: 15120px; left: 14080px; }
+[data-index="22cc"] { top: 15120px; left: 15360px; }
 
 /* 4_Production_crossroads */
 
@@ -359,15 +372,22 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 
 /* 4_Production_left */
 
+[data-index="23b"] { top: 15840px; left: 8960px; }
+[data-index="23c"] { top: 15840px; left: 7680px; }
+[data-index="23d"] { top: 15840px; left: 6400px; }
 [data-index="24a"] { top: 16560px; left: 10240px; }
+[data-index="24b"] { top: 16560px; left: 8960px; }
 [data-index="25a"] { top: 17280px; left: 10240px; }
 [data-index="26a"] { top: 18000px; left: 10240px; }
+[data-index="26b"] { top: 18000px; left: 8960px; }
 [data-index="27a"] { top: 18720px; left: 10240px; }
+[data-index="27b"] { top: 18720px; left: 8960px; }
 [data-index="28a"] { top: 19440px; left: 10240px; }
 [data-index="28b"] { top: 19440px; left: 8960px; }
 [data-index="28c"] { top: 19440px; left: 7680px; }
 [data-index="27c"] { top: 18720px; left: 7680px; }
 [data-index="26c"] { top: 18000px; left: 7680px; }
+[data-index="25b"] { top: 17270px; left: 8960px; }
 [data-index="25c"] { top: 17270px; left: 7680px; }
 [data-index="24c"] { top: 16560px; left: 7680px; }
 
@@ -376,6 +396,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="24aa"] { top: 16560px; left: 12800px; }
 [data-index="25ee"] { top: 17280px; left: 17920px; }
 [data-index="25aa"] { top: 17280px; left: 12800px; }
+[data-index="25bb"] { top: 17280px; left: 14080px; }
 [data-index="26aa"] { top: 18000px; left: 12800px; }
 [data-index="26cc"] { top: 18000px; left: 15360px; }
 [data-index="26ee"] { top: 18000px; left: 17920px; }
@@ -413,6 +434,7 @@ Most Right: 24320 (25600[maxSize]-1280[screenSize])
 [data-index="25e"] { top: 17280px; left: 5120px; }
 [data-index="25g"] { top: 17280px; left: 2560px; }
 [data-index="25h"] { top: 17280px; left: 1280px; }
+[data-index="26g"] { top: 18000px; left: 2560px; }
 [data-index="26d"] { top: 18000px; left: 6400px; }
 [data-index="26e"] { top: 18000px; left: 5120px; }
 [data-index="27e"] { top: 18720px; left: 5120px; }
