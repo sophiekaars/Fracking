@@ -1,219 +1,3 @@
-/* Slide styles
-----------------------------------*/
-
-/*1. exploration middle*/
-[data-index="1"] { background-image: url(images/1.jpg); }
-[data-index="2"] { background-image: url(images/2.jpg); }
-[data-index="3"] { background-image: url(images/3.jpg); }
-[data-index="4"] { background-image: url(images/4.jpg); }
-[data-index="5"] { background-image: url(images/5.jpg); }
-[data-index="6"] { background-image: url(images/6.jpg); }
-[data-index="7"] { background-image: url(images/7.jpg); }
-[data-index="8"] { background-image: url(images/8.jpg); }
-
-/*2. leasing middle*/
-[data-index="9"] { background-image: url(images/9.jpg); }
-[data-index="10"] { background-image: url(images/10.gif); }
-[data-index="11"] { background-image: url(images/11.gif); }
-[data-index="12"] { background-image: url(images/12.gif); }
-
-/*3. prospecting middle*/
-[data-index="13"] { background-image: url(images/13.jpg); }
-[data-index="14"] { background-image: url(images/14.jpg); }
-[data-index="16"] { background-image: url(images/16.jpg); }
-[data-index="18"] { background-image: url(images/18.jpg); }
-
-/*4. financing middle*/
-[data-index="19"] { background-image: url(images/19.jpg); }
-[data-index="20"] { background-image: url(images/20.jpg); }
-[data-index="21"] { background-image: url(images/21.jpg); }
-[data-index="22"] { background-image: url(images/22.jpg); }
-
-/*5. production middle*/
-[data-index="23"] { background-image: url(images/23.gif); }
-[data-index="24"] { background-image: url(images/24.jpg); }
-[data-index="25"] { background-image: url(images/25.jpg); }
-[data-index="26"] { background-image: url(images/26.jpg); }
-[data-index="27"] { background-image: url(images/27.jpg); }
-[data-index="28"] { background-image: url(images/28.jpg); }
-[data-index="29"] { background-image: url(images/29.jpg); }
-
-/*1. exploration left*/
-[data-index="1a"] { background-image: url(images/1a.gif); }
-[data-index="2a"] { background-image: url(images/2a.jpg); }
-[data-index="3a"] { background-image: url(images/3a.jpg); }
-[data-index="4a"] { background-image: url(images/4a.jpg); }
-[data-index="5a"] { background-image: url(images/5a.jpg); }
-[data-index="6a"] { background-image: url(images/6a.jpg); }
-[data-index="7a"] { background-image: url(images/7a.jpg); }
-[data-index="7b"] { background-image: url(images/7b.jpg); }
-[data-index="7c"] { background-image: url(images/7c.jpg); }
-[data-index="7d"] { background-image: url(images/7d.jpg); }
-[data-index="8a"] { background-image: url(images/8a.gif); }
-[data-index="8b"] { background-image: url(images/8b.gif); }
-
-/*2. leasing left*/
-[data-index="9a"] { background-image: url(images/9a.jpg); }
-[data-index="9b"] { background-image: url(images/9b.jpg); }
-[data-index="10a"] { background-image: url(images/10a.jpg); }
-[data-index="10b"] { background-image: url(images/10b.gif); }
-[data-index="10c"] { background-image: url(images/10c.gif); }
-[data-index="11a"] { background-image: url(images/11a.jpg); }
-[data-index="11b"] { background-image: url(images/11b.jpg); }
-[data-index="11c"] { background-image: url(images/11c.gif); }
-[data-index="12a"] { background-image: url(images/12a.jpg); }
-[data-index="12c"] { background-image: url(images/12c.gif); }
-[data-index="13c"] { background-image: url(images/13c.gif); }
-
-/*3. prospecting left*/
-[data-index="13a"] { background-image: url(images/13a.jpg); }
-[data-index="14a"] { background-image: url(images/14a.gif); }
-[data-index="15a"] { background-image: url(images/15a.jpg); }
-[data-index="16a"] { background-image: url(images/16a.jpg); }
-[data-index="16b"] { background-image: url(images/16b.gif); }
-[data-index="16c"] { background-image: url(images/16c.jpg); }
-[data-index="17a"] { background-image: url(images/17a.jpg); }
-[data-index="17b"] { background-image: url(images/17b.jpg); }
-[data-index="18a"] { background-image: url(images/18a.gif); }
-
-/*4. financing left*/
-[data-index="19a"] { background-image: url(images/19a.jpg); }
-[data-index="19b"] { background-image: url(images/19b.jpg); }
-[data-index="19c"] { background-image: url(images/19c.jpg); }
-[data-index="19d"] { background-image: url(images/19d.jpg); }
-[data-index="19e"] { background-image: url(images/19e.jpg); }
-[data-index="19f"] { background-image: url(images/19f.gif); }
-[data-index="20a"] { background-image: url(images/20a.jpg); }
-[data-index="21a"] { background-image: url(images/21a.jpg); }
-[data-index="22a"] { background-image: url(images/22a.jpg); }
-
-/*5. production and positive impact left*/
-[data-index="23a"] { background-image: url(images/23a.jpg); }
-[data-index="23b"] { background-image: url(images/23b.jpg); }
-[data-index="23c"] { background-image: url(images/23c.jpg); }
-[data-index="23d"] { background-image: url(images/23d.jpg); }
-[data-index="23f"] { background-image: url(images/23f.jpg); }
-[data-index="23g"] { background-image: url(images/23g.jpg); }
-
-[data-index="24a"] { background-image: url(images/24a.jpg); }
-[data-index="24b"] { background-image: url(images/24b.jpg); }
-[data-index="24c"] { background-image: url(images/24c.gif); }
-[data-index="24d"] { background-image: url(images/24d.jpg); }
-[data-index="24e"] { background-image: url(images/24e.gif); }
-[data-index="24f"] { background-image: url(images/24f.gif); }
-[data-index="24g"] { background-image: url(images/24g.gif); }
-[data-index="24h"] { background-image: url(images/24h.gif); }
-[data-index="24i"] { background-image: url(images/24i.jpg); }
-
-[data-index="25a"] { background-image: url(images/25a.jpg); }
-[data-index="25b"] { background-image: url(images/25b.jpg); }
-[data-index="25c"] { background-image: url(images/25c.jpg); }
-[data-index="25d"] { background-image: url(images/25d.jpg); }
-[data-index="25e"] { background-image: url(images/25e.gif); }
-[data-index="25g"] { background-image: url(images/25g.jpg); }
-[data-index="25h"] { background-image: url(images/25h.gif); }
-
-[data-index="26a"] { background-image: url(images/26a.jpg); }
-[data-index="26b"] { background-image: url(images/26b.jpg); }
-[data-index="26c"] { background-image: url(images/26c.jpg); }
-[data-index="26d"] { background-image: url(images/26d.jpg); }
-[data-index="26e"] { background-image: url(images/26e.gif); }
-[data-index="26g"] { background-image: url(images/26g.jpg); }
-
-[data-index="27a"] { background-image: url(images/27a.jpg); }
-[data-index="27b"] { background-image: url(images/27b.jpg); }
-[data-index="27c"] { background-image: url(images/27c.jpg); }
-[data-index="27e"] { background-image: url(images/27e.jpg); }
-[data-index="28a"] { background-image: url(images/28a.jpg); }
-[data-index="28b"] { background-image: url(images/28b.jpg); }
-[data-index="28c"] { background-image: url(images/28c.jpg); }
-
-/*1. exploration right*/
-[data-index="3aa"] { background-image: url(images/3aa.jpg); }
-[data-index="4aa"] { background-image: url(images/4aa.jpg); }
-[data-index="5aa"] { background-image: url(images/5aa.gif); }
-[data-index="6aa"] { background-image: url(images/6aa.jpg); }
-[data-index="7aa"] { background-image: url(images/7aa.jpg); }
-[data-index="8aa"] { background-image: url(images/8aa.gif); }
-
-/*2. leasing right*/
-[data-index="9aa"] { background-image: url(images/9aa.jpg); }
-[data-index="10aa"] { background-image: url(images/10aa.jpg); }
-[data-index="11aa"] { background-image: url(images/11aa.gif); }
-[data-index="12aa"] { background-image: url(images/12aa.gif); }
-
-/*3. prospecting right*/
-[data-index="13aa"] { background-image: url(images/13aa.jpg); }
-[data-index="14aa"] { background-image: url(images/14aa.gif); }
-[data-index="15aa"] { background-image: url(images/15aa.jpg); }
-[data-index="16aa"] { background-image: url(images/16aa.jpg); }
-[data-index="17aa"] { background-image: url(images/17aa.gif); }
-[data-index="17aa"].last-frame { background-image: url(images/17aa_last.jpg); }
-[data-index="18aa"] { background-image: url(images/18aa.gif); }
-
-/*4. financing middle*/
-[data-index="19aa"] { background-image: url(images/19aa.jpg); }
-[data-index="20aa"] { background-image: url(images/20aa.jpg); }
-[data-index="20bb"] { background-image: url(images/20bb.jpg); }
-[data-index="20gg"] { background-image: url(images/20gg.jpg); }
-[data-index="20hh"] { background-image: url(images/20hh.gif); }
-[data-index="20ii"] { background-image: url(images/20ii.gif); }
-[data-index="20jj"] { background-image: url(images/20jj.jpg); }
-[data-index="21aa"] { background-image: url(images/21aa.gif); }
-[data-index="21bb"] { background-image: url(images/21bb.jpg); }
-[data-index="21cc"] { background-image: url(images/21cc.gif); }
-[data-index="21dd"] { background-image: url(images/21dd.gif); }
-[data-index="21ee"] { background-image: url(images/21ee.gif); }
-[data-index="21ff"] { background-image: url(images/21ff.gif); }
-[data-index="21gg"] { background-image: url(images/21gg.gif); }
-[data-index="21hh"] { background-image: url(images/21hh.gif); }
-[data-index="22aa"] { background-image: url(images/22aa.jpg); }
-[data-index="22bb"] { background-image: url(images/22bb.jpg); }
-[data-index="22cc"] { background-image: url(images/22cc.jpg); }
-
-/*5. production neutral, negative and impact negative right*/
-
-[data-index="23aa"] { background-image: url(images/23aa.jpg); }
-[data-index="23bb"] { background-image: url(images/23bb.jpg); }
-
-[data-index="24aa"] { background-image: url(images/24aa.jpg); }
-[data-index="25aa"] { background-image: url(images/25aa.jpg); }
-[data-index="25bb"] { background-image: url(images/25bb.jpg); }
-[data-index="25ee"] { background-image: url(images/25ee.jpg); }
-[data-index="25ff"] { background-image: url(images/25ff.gif); }
-[data-index="25gg"] { background-image: url(images/25gg.jpg); }
-[data-index="25hh"] { background-image: url(images/25hh.jpg); }
-[data-index="25ii"] { background-image: url(images/25ii.gif); }
-[data-index="25jj"] { background-image: url(images/25jj.jpg); }
-[data-index="25kk"] { background-image: url(images/25kk.jpg); }
-[data-index="26aa"] { background-image: url(images/26aa.jpg); }
-[data-index="26cc"] { background-image: url(images/26cc.jpg); }
-[data-index="26ee"] { background-image: url(images/26ee.jpg); }
-[data-index="26ff"] { background-image: url(images/26ff.jpg); }
-[data-index="26gg"] { background-image: url(images/26gg.gif); }
-[data-index="26hh"] { background-image: url(images/26hh.jpg); }
-[data-index="27aa"] { background-image: url(images/27aa.jpg); }
-[data-index="27cc"] { background-image: url(images/27cc.gif); }
-[data-index="27ee"] { background-image: url(images/27ee.jpg); }
-[data-index="27gg"] { background-image: url(images/27gg.jpg); }
-[data-index="27hh"] { background-image: url(images/27hh.jpg); }
-[data-index="28aa"] { background-image: url(images/28aa.jpg); }
-[data-index="28bb"] { background-image: url(images/28bb.gif); }
-[data-index="28cc"] { background-image: url(images/28cc.gif); }
-[data-index="28dd"] { background-image: url(images/28dd.jpg); }
-[data-index="28ee"] { background-image: url(images/28ee.jpg); }
-
-[data-index="29aa"] { background-image: url(images/29aa.gif); }
-[data-index="29bb"] { background-image: url(images/29bb.jpg); }
-[data-index="29cc"] { background-image: url(images/29cc.jpg); }
-[data-index="29dd"] { background-image: url(images/29dd.gif); }
-[data-index="30cc"] { background-image: url(images/30cc.jpg); }
-[data-index="30dd"] { background-image: url(images/30dd.jpg); }
-[data-index="31cc"] { background-image: url(images/31cc.jpg); }
-[data-index="32cc"] { background-image: url(images/32cc.jpg); }
-[data-index="33cc"] { background-image: url(images/33cc.gif); }
-[data-index="34cc"] { background-image: url(images/34cc.jpg); }
-
 /* Screen mapping
 
 Most Left: 0
@@ -578,7 +362,6 @@ html, body { height: 100%; }
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(images/minimap.png) no-repeat center center;
 	margin: 5px 0 0 8px;
 }
 
@@ -759,3 +542,29 @@ video[data-autoplay="no"] {
     opacity: 0.0;
  }
 }
+
+        body, html { height: 100%; }
+        #screen {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            background: #e4f3fa;
+            top: 0;
+            left: 0;
+            z-index: 100000;
+        }
+
+        #loading {
+            font-weight: 900;
+            font-size: 78px;
+            position: absolute;
+            width: 850px;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -385px;
+            letter-spacing: 0.600em;
+            text-transform: uppercase;
+        }
